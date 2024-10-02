@@ -110,19 +110,7 @@ function App() {
           </div>
           <div className="bg-gray-800 p-6 rounded-lg shadow-xl text-left">
             <p className="text-lg leading-relaxed text-yellow-300">
-              We are a team of blockchain enthusiasts and innovators committed to bringing
-              decentralized finance (DeFi) closer to everyone. Our mission is to provide
-              comprehensive tools and resources to help users track decentralized exchanges
-              (DEX) activities, discover new opportunities, and make informed trading
-              decisions. At Dex Screener, we believe in empowering individuals with the
-              knowledge and tools to thrive in the fast-evolving world of cryptocurrency
-              trading.
-            </p>
-            <p className="mt-4 text-lg leading-relaxed text-yellow-300">
-              With our roadmap for the future, we aim to continue building and improving our
-              platform to provide better insights, trends, and analytics that cater to the
-              needs of both experienced traders and newcomers. Stay tuned as we bring you
-              exciting updates and groundbreaking features!
+              Moneki woke up from a dream and saw her sister been worshiped and has millions of followers he told her followers that she is her sister not some god but no one listened and told him to first bring followers then speak so he had to go on a journey to become the best solana Dog coin before he had the chance to speak !
             </p>
           </div>
         </div>
