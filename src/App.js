@@ -98,7 +98,7 @@ function App() {
               <ul className="list-disc list-inside space-y-2 mt-2 text-sm md:text-base">
                 <li>KOL Calls</li>
                 <li>CEX Listing</li>
-                <li>NFT Collection Release</li>
+                <li>Merchandise coming soon</li>
               </ul>
             </div>
           </div>
