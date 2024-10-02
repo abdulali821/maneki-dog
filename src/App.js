@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../src/assets/banner.jpg";
+import Banner from "../src/assets/banner.png";
 import Logo from "../src/assets/logo.jpg";
 import { FaTwitter, FaTelegramPlane, FaRocket, FaTools, FaCogs } from "react-icons/fa"; // Importing icons for phases
 
@@ -34,7 +34,7 @@ function App() {
         <img
           src={Logo}
           alt="logo"
-          className="w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] rounded-full border-4 border-yellow-300 shadow-lg"
+          className="w-[250px] h-[250px] sm:w-[200px] sm:h-[200px] rounded-full border-4 border-yellow-300 shadow-lg"
         />
 
         {/* Titles */}
