@@ -13,7 +13,7 @@ function App() {
         {/* Social Icons */}
         <div className="flex gap-4 justify-end w-full px-6">
           <a
-            href="https://twitter.com"
+            href="https://x.com/manekisol2024/status/1841463255690023325"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-500 cursor-pointer transform hover:scale-110 transition-transform"
@@ -21,7 +21,7 @@ function App() {
             <FaTwitter size={30} />
           </a>
           <a
-            href="https://telegram.org"
+            href="https://t.me/moneki_DOG"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-yellow-500 cursor-pointer transform hover:scale-110 transition-transform"
@@ -43,7 +43,7 @@ function App() {
             Dex Screener
           </div>
           <div className="text-4xl sm:text-5xl p-4 sm:p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
-            Pump Fun
+            MoonShot
           </div>
         </div>
 
@@ -101,6 +101,29 @@ function App() {
                 <li>Merchandise coming soon</li>
               </ul>
             </div>
+          </div>
+        </div>
+        {/* About Us Section */}
+        <div className="mt-12 text-center">
+          <div className="text-3xl sm:text-4xl font-extrabold tracking-wider mb-6">
+            ABOUT US
+          </div>
+          <div className="bg-gray-800 p-6 rounded-lg shadow-xl text-left">
+            <p className="text-lg leading-relaxed text-yellow-300">
+              We are a team of blockchain enthusiasts and innovators committed to bringing
+              decentralized finance (DeFi) closer to everyone. Our mission is to provide
+              comprehensive tools and resources to help users track decentralized exchanges
+              (DEX) activities, discover new opportunities, and make informed trading
+              decisions. At Dex Screener, we believe in empowering individuals with the
+              knowledge and tools to thrive in the fast-evolving world of cryptocurrency
+              trading.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-yellow-300">
+              With our roadmap for the future, we aim to continue building and improving our
+              platform to provide better insights, trends, and analytics that cater to the
+              needs of both experienced traders and newcomers. Stay tuned as we bring you
+              exciting updates and groundbreaking features!
+            </p>
           </div>
         </div>
       </div>
