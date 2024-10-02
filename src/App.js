@@ -39,12 +39,22 @@ function App() {
 
         {/* Titles */}
         <div className="text-center flex flex-col sm:flex-row gap-5 text-black">
-          <div className="text-4xl sm:text-5xl p-4 sm:p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
-            Dex Screener
-          </div>
-          <div className="text-4xl sm:text-5xl p-4 sm:p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
-            MoonShot
-          </div>
+          <a
+            href="_"
+            target="_blank"
+            rel="noopener noreferrer">
+            <div className="text-4xl sm:text-5xl p-4 sm:p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
+              Dex Screener
+            </div>
+          </a>
+          <a
+            href="_"
+            target="_blank"
+            rel="noopener noreferrer">
+            <div className="text-4xl sm:text-5xl p-4 sm:p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
+              MoonShot
+            </div>
+          </a>
         </div>
 
         <div className="text-lg font-medium mt-2 text-yellow-400">CA: Coming Soon</div>
@@ -110,7 +120,7 @@ function App() {
           </div>
           <div className="bg-gray-800 p-6 rounded-lg shadow-xl text-left">
             <p className="text-lg leading-relaxed text-yellow-300">
-              Moneki woke up from a dream and saw her sister been worshiped and has millions of followers he told her followers that she is her sister not some god but no one listened and told him to first bring followers then speak so he had to go on a journey to become the best solana Dog coin before he had the chance to speak ! (Btw her sister is maneki)
+              Moneki woke up from a dream and saw her sister been worshiped and has millions of followers he told her followers that she is her sister not some god but no one listened and told him to first bring followers then speak so he had to go on a journey to become the best solana Dog coin before he had the chance to speak ! <br /> (Btw her sister is maneki)
             </p>
           </div>
         </div>
