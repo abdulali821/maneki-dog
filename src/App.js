@@ -40,7 +40,7 @@ function App() {
         {/* Titles */}
         <div className="text-center flex flex-col sm:flex-row gap-5 text-black">
           <a
-            href="_"
+            href="https://dexscreener.com/solana/ejczusuqdubjvyulsb32avuozshy7fnoxu7swexrv7dx"
             target="_blank"
             rel="noopener noreferrer">
             <div className="text-4xl sm:text-5xl p-4 sm:p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
@@ -48,7 +48,7 @@ function App() {
             </div>
           </a>
           <a
-            href="_"
+            href="https://dexscreener.com/solana/ejczusuqdubjvyulsb32avuozshy7fnoxu7swexrv7dx"
             target="_blank"
             rel="noopener noreferrer">
             <div className="text-4xl sm:text-5xl p-4 sm:p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
@@ -57,7 +57,7 @@ function App() {
           </a>
         </div>
 
-        <div className="text-lg font-medium mt-2 text-yellow-400">CA: Coming Soon</div>
+        <div className="text-lg font-medium mt-2 text-yellow-400">CA: 9qFdULLGDgrUMHD6kLLAr3HeKsfMDtubVxmjQRt8WbS</div>
       </div>
 
       {/* Road Map Section */}
