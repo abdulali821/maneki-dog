@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../src/assets/banner.jpg";
 import Logo from "../src/assets/logo.jpg";
-import { FaTwitter, FaTelegramPlane } from "react-icons/fa"; // Importing icons from react-icons
+import { FaTwitter, FaTelegramPlane, FaRocket, FaTools, FaCogs } from "react-icons/fa"; // Importing icons for phases
 
 function App() {
   return (
@@ -34,15 +34,15 @@ function App() {
         <img
           src={Logo}
           alt="logo"
-          className="w-[200px] h-[200px] rounded-full border-4 border-yellow-300 shadow-lg"
+          className="w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] rounded-full border-4 border-yellow-300 shadow-lg"
         />
 
         {/* Titles */}
-        <div className="text-center flex gap-5 text-black">
-          <div className="text-5xl p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
+        <div className="text-center flex flex-col sm:flex-row gap-5 text-black">
+          <div className="text-4xl sm:text-5xl p-4 sm:p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
             Dex Screener
           </div>
-          <div className="text-5xl p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
+          <div className="text-4xl sm:text-5xl p-4 sm:p-5 font-bold bg-yellow-300 rounded-lg shadow-md">
             Pump Fun
           </div>
         </div>
@@ -52,15 +52,20 @@ function App() {
 
       {/* Road Map Section */}
       <div className="mt-12 text-center">
-        <div className="text-4xl font-extrabold tracking-wider mb-6">ROAD MAP</div>
+        <div className="text-3xl sm:text-4xl font-extrabold tracking-wider mb-6">
+          ROAD MAP
+        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Roadmap Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Phase 1 */}
-          <div className="bg-gray-700 p-6 rounded-lg shadow-xl hover:bg-gray-600 transition-colors">
-            <div className="text-2xl font-bold mb-4">Phase 1</div>
+          <div className="bg-gray-800 p-6 rounded-lg shadow-xl hover:bg-gray-700 transition-colors">
+            <div className="text-2xl font-bold mb-4 flex items-center gap-3">
+              <FaRocket className="text-red-500" size={30} /> Phase 1
+            </div>
             <div className="text-left">
               <div className="text-lg font-semibold text-red-500">STEPS:</div>
-              <ul className="list-disc list-inside space-y-2 mt-2">
+              <ul className="list-disc list-inside space-y-2 mt-2 text-sm md:text-base">
                 <li>Pay DEX</li>
                 <li>DEX Boost</li>
                 <li>Orbit Volume Bot</li>
@@ -69,11 +74,13 @@ function App() {
           </div>
 
           {/* Phase 2 */}
-          <div className="bg-gray-700 p-6 rounded-lg shadow-xl hover:bg-gray-600 transition-colors">
-            <div className="text-2xl font-bold mb-4">Phase 2</div>
+          <div className="bg-gray-800 p-6 rounded-lg shadow-xl hover:bg-gray-700 transition-colors">
+            <div className="text-2xl font-bold mb-4 flex items-center gap-3">
+              <FaTools className="text-red-500" size={30} /> Phase 2
+            </div>
             <div className="text-left">
               <div className="text-lg font-semibold text-red-500">STEPS:</div>
-              <ul className="list-disc list-inside space-y-2 mt-2">
+              <ul className="list-disc list-inside space-y-2 mt-2 text-sm md:text-base">
                 <li>DEX Tools Update</li>
                 <li>Coin Gecko Listing</li>
                 <li>SOL Trending</li>
@@ -82,11 +89,13 @@ function App() {
           </div>
 
           {/* Phase 3 */}
-          <div className="bg-gray-700 p-6 rounded-lg shadow-xl hover:bg-gray-600 transition-colors">
-            <div className="text-2xl font-bold mb-4">Phase 3</div>
+          <div className="bg-gray-800 p-6 rounded-lg shadow-xl hover:bg-gray-700 transition-colors">
+            <div className="text-2xl font-bold mb-4 flex items-center gap-3">
+              <FaCogs className="text-red-500" size={30} /> Phase 3
+            </div>
             <div className="text-left">
               <div className="text-lg font-semibold text-red-500">STEPS:</div>
-              <ul className="list-disc list-inside space-y-2 mt-2">
+              <ul className="list-disc list-inside space-y-2 mt-2 text-sm md:text-base">
                 <li>KOL Calls</li>
                 <li>CEX Listing</li>
                 <li>NFT Collection Release</li>
